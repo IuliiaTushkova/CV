@@ -182,7 +182,7 @@ button span:visited{
 	padding-top: 30px;
 	padding-bottom: 45px;
 
-	color: var(--main-color);
+	color: var(--red);
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -233,7 +233,7 @@ button span:visited{
 	padding-top: 30px;
 	padding-bottom: 45px;
 
-	color: var(--main-color);
+	color: var(--red);
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -502,7 +502,7 @@ button span:visited{
 	margin: 20px 0;
 	padding: 20px 0;
 
-	color:var(--main-color);
+	color:var(--red);
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -657,7 +657,7 @@ footer p{
 
 	text-align: center;
 	text-transform: uppercase;
-	color:var(--main-color);
+	color:var(--red);
 }
 
 .download-CV h3{
