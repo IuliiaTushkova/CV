@@ -4,7 +4,6 @@
 	
 	--second-color:#D6C245;
 	--text-window-grey:#F8F9FA;
-	--text-color:;
 	--h-color-white: #fff;
 	--btn-color: black;
 	--yellow : #C7AF45;
@@ -56,6 +55,22 @@ button span:visited{
 	border-color: #F8F9FA;
 }
 
+.flex-maker{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex-maker-center-w100{
+	width: 100;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
 
 
 /*--------Banner-------------*/
@@ -63,12 +78,8 @@ button span:visited{
 /*General container*/
 .banner{
 	width: 100%;
-	height: 50vw;
+	height: 100%;
 	margin: 0;
-	
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 
 	font-family:var(--font);
 }
@@ -96,16 +107,6 @@ button span:visited{
 }
 
 /*All except the big photo*/
-/*Sm and Md*/
-.infos-banner{
-	width: 100%;
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	
-}
 /*Lg*/
 @media(min-width: 1538px){
 	.infos-banner{
@@ -115,9 +116,8 @@ button span:visited{
 }
 /*NavBar*/
 .nav-wrapper{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	width: 100%;
+	margin: 5px 0 0 5px;
 }
 .nav{
 	width: 100%;
@@ -144,8 +144,6 @@ button span:visited{
 		width: 100%;
 	}
 }
-
-
 
 /*General wrapper of the presentaition's text*/
 /*SM and MD*/
@@ -175,14 +173,6 @@ button span:visited{
 	}
 }
 
-@media(min-width: 1538px){
-	.about-me-text-wrapper{
-		width: 60%;
-
-		border-right: 4px solid var(--red);
-	
-	}
-}
 /*Rounded photo: sm and md*/
 /*Container*/
 .photo-rounded{
@@ -195,13 +185,16 @@ button span:visited{
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+.photo-rounded img{
+	border-radius: 50%;
+}
+
+/*hidden*/
 @media(min-width: 1538px){
 	.photo-rounded{
 		display: none;
 	}
-}
-.photo-rounded img{
-	border-radius: 50%;
 }
 
 
@@ -236,8 +229,8 @@ button span:visited{
 	
 }
 
-
 /*--------------Presentation----------------*/
+/*general container*/
 .pres-wrapper{
 	width: 100%;
 
@@ -249,7 +242,6 @@ button span:visited{
 
 	background-color: var(--back);
 }
-
 .pres-wrapper h1{
 	width: 100%;
 	padding-top: 30px;
@@ -259,18 +251,23 @@ button span:visited{
 	text-transform: uppercase;
 	text-align: center;
 }
-
+/*Text container*/
 .text-presentation{
 	padding: 60px;
-	width: 60%
+	width: 100%;
 }
-.pres span{
-	position: center;
+/*Text container md and lg*/
+@media(min-width: 683px){
+	.text-presentation{
+		padding: 60px;
+		width: 60%;
+	}
 }
-.pres p{
+.text-presentation p{
 	font-size: 20px;
 }
 
+/*Elephant*/
 .picture-Nantes{
 	display: none;
 	width: 40%;
@@ -279,6 +276,7 @@ button span:visited{
 	width: 100%;
 	height: 100%;
 }
+/*Elephant non visible for sm and md*/
 @media(min-width: 1538px){
 	.picture-Nantes{
 	width: 40%;
@@ -286,6 +284,7 @@ button span:visited{
 	display: block;
 	}
 }
+
 /*----- Informations / Contacts --------*/
 .contacts{
 	width: 100%;
@@ -316,8 +315,10 @@ button span:visited{
 .contacts div p span{
 	font-weight: bold;
 }
+
 /*----------------COMPETENCES---------------------*/
 
+/*title*/
 .wrapper-skills h1{
 	width: 100%;
     margin: 20px 0;
@@ -325,6 +326,7 @@ button span:visited{
     text-align: center;
     text-transform: uppercase;
 }
+/*General container*/
 .wrapper-skills{
 	width: 100%;
 	padding: 30px 10px; 
@@ -335,7 +337,7 @@ button span:visited{
 .skill-flex-wrapper{
 	width: 100%; 
 }
-
+/*Grid : 2 cols for sm*/
 .skill-grid-wrapper{
 	margin: 30px;
 	padding-bottom: 50px;
@@ -346,6 +348,7 @@ button span:visited{
 	justify-items: center;
 }
 
+/*Grid : 4 cols*/
 @media(min-width: 540px){
 	.skill-grid-wrapper{
 		display: grid;
@@ -368,12 +371,14 @@ button span:visited{
 	text-align: left;
 	letter-spacing: 3px;
 }
+
 .transversales-grid{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	row-gap: 10px;
 	text-align: center;
 }
+
 .transversales-grid p{
 	font-size: 20px;
 }
@@ -386,6 +391,7 @@ button span:visited{
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+
 .skill-flex-wrapper-cms{
 	display: flex;
 	flex-direction: row;
@@ -393,9 +399,11 @@ button span:visited{
 	justify-content: center;
 	
 }
+
 .comp-block img, p{
 	width: 100%;
 }
+
 .header-skill{
 	width: 100%;
 	
@@ -404,10 +412,8 @@ button span:visited{
 	color: black;
 	text-align: center;
 }
-.header-skill span{
-	width: 30px;
-	border-bottom: 4px solid var(--red);
-}
+
+
 
 .comp-block p{
 	display: block;
@@ -415,12 +421,15 @@ button span:visited{
 	font-family: var(--font);
 	font-weight: bold;
 }
+
 .transversales-grid p{
 	font-weight: bold;
 	font-size: 25px; 
 }
 
 /*--------------Experiences pro--------------------*/
+
+/*General wrapper*/
 .experience{
 	width: 100%;
 	padding-bottom: 100px;
@@ -462,6 +471,7 @@ button span:visited{
 	background-color:var(--second-color);
 }
 
+
 .timeline > li{
 	margin-bottom: 20px;
 	position: relative;
@@ -475,7 +485,10 @@ button span:visited{
 	content: " ";
 	display: table;
 }
+
+/*Briefcase*/
 .timeline li .timeline-badge{
+	display: none;
 	line-height: 50px;
 	position: absolute;
 	text-align: center;
@@ -484,26 +497,40 @@ button span:visited{
 	margin-left: -25px;
 	background-color: #F5F5F5;
 }
+
+/*display briefcase*/
+@media(min-width: 768px){
+	.timeline li .timeline-badge{
+		display: block;
+	}
+}
 .timeline-panel-container{
-	width: 50%;
-
-	float: left;
+	width: 100%;
+	padding: 20px 25px;
 }
+
 .timeline-panel-container-inverted{
-	width: 50%;
-
-	float: left;
+	width: 100%;
+	padding: 20px 25px;
 }
 
-@media(min-width: 700px){
+
+/*block for md and lg*/
+@media(min-width: 768px){
 		.timeline-panel-container-inverted{
 		width: 50%;
 
 		float: right;
 	}
 }
-@media(min-width: 700px){
-	.timeline-panel{
+@media(min-width: 768px){
+		.timeline-panel-container{
+		width: 50%;
+
+		float: left;
+	}
+}
+.timeline-panel{
 		width: 90%;
 		margin-right: 40px;
 		padding: 20px 25px;
@@ -515,8 +542,7 @@ button span:visited{
 		box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
 		background-color: #fff;
 	}
-}
-@media(min-width: 700px){
+@media(min-width: 768px){
 	.timeline-panel:after{
 		position: absolute;
 		top: 27px;
@@ -532,7 +558,7 @@ button span:visited{
 }
 
 
-@media(min-width: 700px){
+@media(min-width: 768px){
 	.timeline-panel-container-inverted .timeline-panel:after{
 		border-left-width: 0;
 		border-right-width: 14px;
@@ -540,6 +566,8 @@ button span:visited{
 		right: auto;
 	}
 }
+
+
 .timeline-heading h3{
 	margin-top: 5px;
 	font-size: 20px;
@@ -551,6 +579,7 @@ button span:visited{
 }
 
 /*--------FORMATION--------------------*/
+
 .education{
 	width: 100%;
 	padding-bottom: 60px;
@@ -631,8 +660,9 @@ button span:visited{
 	padding: 20px;
 	position: center;
 
-	color: #FC504B;
+	color: var(--red);
 }
+
 /*--------------Hobbies--------------------*/
 
 .rub-hobbies{
