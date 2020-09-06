@@ -60,16 +60,15 @@ button span:visited{
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.flex-maker-center-w100{
-	width: 100;
-
+.flex-maker-center{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
-
+.w100{
+	width: 100%;
+}
 
 
 
@@ -77,7 +76,6 @@ button span:visited{
 
 /*General container*/
 .banner{
-	width: 100%;
 	height: 100%;
 	margin: 0;
 
@@ -87,7 +85,6 @@ button span:visited{
 /*Big photo*/
 /*MD and SM - hide*/
 .photo{
-	
 	display: none;
 }
 
@@ -114,19 +111,13 @@ button span:visited{
 		height: 100%;
 	}
 }
-/*NavBar*/
-.nav-wrapper{
-	width: 100%;
-	margin: 5px 0 0 5px;
-}
-.nav{
-	width: 100%;
-	margin-top: 20px;
 
-	opacity: 0.7;
-	position: absolute;
-	top: 0;
-}
+/*NavBar*/
+
+.nav-wrapper{
+	margin: 5px 0 0 5px;
+} 
+
 .nav-item{
 	margin: 10px;
 
@@ -134,11 +125,13 @@ button span:visited{
 	font-family: var(--font);
 	font-size: 20px;
 }
+
 .navbar{
 	width: 100%;
 	padding: 0px;
 	background-color:#fff!important;
 }
+
 @media(min-width: 1538px){
 	.navbar{
 		width: 100%;
@@ -147,16 +140,9 @@ button span:visited{
 
 /*General wrapper of the presentaition's text*/
 /*SM and MD*/
+
 .about-me-text-wrapper{
-	width: 100%;
-
 	margin: 60px 0;
-	
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 /*Lg*/
@@ -179,11 +165,6 @@ button span:visited{
 	width: 100%;
 	padding-top: 60px; 
 	padding-bottom: 20px; 
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 .photo-rounded img{
@@ -232,12 +213,6 @@ button span:visited{
 /*--------------Presentation----------------*/
 /*general container*/
 .pres-wrapper{
-	width: 100%;
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
 	align-items: center;
 
 	background-color: var(--back);
@@ -291,10 +266,7 @@ button span:visited{
 	padding: 40px 10px;
 
 	font-family: var(--font);
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+
 	align-items: center;
 }
 .contacts div{
@@ -393,10 +365,12 @@ button span:visited{
 }
 
 .skill-flex-wrapper-cms{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+	padding-bottom: 30px;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	row-gap: 10px;
+	justify-items: center;
 	
 }
 
@@ -417,6 +391,7 @@ button span:visited{
 
 .comp-block p{
 	display: block;
+
 	text-align: center;
 	font-family: var(--font);
 	font-weight: bold;
@@ -433,11 +408,6 @@ button span:visited{
 .experience{
 	width: 100%;
 	padding-bottom: 100px;
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
 
 	background-color: var(--back);
 }
@@ -585,19 +555,8 @@ button span:visited{
 	padding-bottom: 60px;
 
 	background-color: #fff;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
 }
-.education-block-wrapper-extern{
-	width: 100%;
 
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
 
 .education h1{
 	width: 100%;
@@ -736,11 +695,6 @@ footer p{
 .infos{
 	width: 100%;
 	margin-top: 30px;
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 .infos h3{
@@ -791,10 +745,6 @@ footer p{
 .footer-goTop{
 	width: 100%;
 
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
 	text-align: center;
 
 	background-color: var(--back);
