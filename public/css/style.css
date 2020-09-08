@@ -673,6 +673,7 @@ footer {
 
 	background-color:var(--back);
 }
+
 @media(min-width: 1539px){
 	footer {
 		display: grid;
@@ -725,7 +726,7 @@ footer p{
 	width: 100%;
 	
 	padding-top: 50px;
-	
+	border-radius: 20px;
 	background-color: var(--red);
 	font-color: #fff;
 	box-shadow: 2px 2px 2px grey;
@@ -739,7 +740,9 @@ footer p{
 
 .download-CV h3:hover{
 	width: 100%;
+
 	box-shadow: 5px 5px 5px grey;
+	transition: 1s;
 }
 
 .download-CV h3 a{
