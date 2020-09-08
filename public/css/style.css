@@ -29,6 +29,7 @@ body
 	flex-wrap: wrap;
 
 	font-family:var(--font);
+	
 
 }
 
@@ -74,6 +75,7 @@ button span:visited{
 
 /*--------Banner-------------*/
 
+
 /*General container*/
 .banner{
 	height: 100%;
@@ -89,9 +91,11 @@ button span:visited{
 }
 
 .photo img{
+
 	width: 100%;
 	height: 100%;
 }
+
 
 
 /*Lg*/
