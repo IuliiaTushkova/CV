@@ -1,5 +1,4 @@
-/*Generale*/
-
+/*General*/
 :root {
 	
 	--background-color:#F6EAD4;
@@ -14,9 +13,7 @@ body{
 	background-color: var(--background-color);
 }
 
-
 /*Header*/
-
 
 
 /*Main*/

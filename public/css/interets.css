@@ -1,0 +1,61 @@
+/*Generale*/
+
+:root {
+	
+	--background-color:#F6EAD4;
+	--background-color-second:#DBB591;
+	--text-color:#163084;
+	--second-color:#3E85D5;
+	
+	--font:'Prompt', sans-serif; 
+}
+
+body{
+	background-color: var(--background-color);
+}
+
+.flex-maker{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex-maker-center{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+/*Header*/
+
+h1{
+	text-transform: uppercase;
+	color: var(--text-color);
+}
+
+/*Main*/
+
+.rub-hobbies{
+	width: 100%;
+	padding: 30px 0;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.rub-hobbies p{
+		padding: 30px 0;
+
+		text-align: center;
+		font-size: 30px;
+		font-family: var(--font);
+	}
+
+@media(min-width: 1538px){
+	.rub-hobbies p{
+		width: 30%;
+	}
+}

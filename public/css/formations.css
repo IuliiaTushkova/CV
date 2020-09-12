@@ -1,0 +1,99 @@
+/*Generale*/
+
+:root {
+	
+	--background-color:#F6EAD4;
+	--background-color-second:#DBB591;
+	--text-color:#163084;
+	--second-color:#3E85D5;
+	
+	--font:'Prompt', sans-serif; 
+}
+
+body{
+	background-color: var(--background-color);
+}
+
+
+/*Header*/
+
+
+
+/*Main*/
+
+
+.education{
+	width: 100%;
+	padding-bottom: 60px;
+
+	background-color: var(--background-color);
+}
+
+
+.education h1{
+	width: 100%;
+	margin: 20px 0;
+	padding: 20px 0;
+
+	color:var(--text-color);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.education-block{
+	width: 100%;
+}
+
+.education-block-wrapper{
+	width: 100%;
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	padding: 40px 10px;
+
+	background-color:var(--second-color);
+	text-align: center;
+	border:2px solid #ccc;
+	border-radius: 10px;
+}
+.red{
+	color: var(--red);
+}
+#uspu{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media(min-width: 1538px){
+	.education-block{
+		width: 30%;
+	}
+}
+@media(min-width: 1538px){
+	.education-block-wrapper-extern{
+		width: 100%;
+		padding-left: 200px;
+	}
+}
+@media(min-width: 1538px){
+	.education-block-wrapper{
+		width: 60%;
+	}
+}
+
+.education-block-wrapper h5{
+	position: center;
+
+	color: var(--background-color);
+	opacity: 0.7;
+}
+.education-block-wrapper h4{
+	color: var(--background-color);
+}
+.education-block-wrapper h3{
+	padding: 20px;
+	position: center;
+
+	color: var(--background-color);
+}
