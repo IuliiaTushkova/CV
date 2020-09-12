@@ -11,12 +11,38 @@
 }
 
 body{
+	height: 100%;
 	background-color: var(--background-color);
 }
 
+.flex-maker{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex-maker-center{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
-/*Header*/
+/*------------ Presentation -------------*/
+.presentation-wrapper{
+	width: 100%;
+}
 
+/*------------ Stage -------------*/
+.stage-wrapper{
+	width: 100%;
+}
+.stage-wrapper p{
+	width: 80%;
+}
 
-
-/*Main*/
+/*------------ Menu -------------*/
+.menu-bar{
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
