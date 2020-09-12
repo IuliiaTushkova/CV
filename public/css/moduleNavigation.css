@@ -11,7 +11,7 @@
 }
 
 body{
-	background-color: var(--background-color);
+	background-image: url('../images/theme/theme.jpg');
 
 	font-family: var(--font);
 }
@@ -25,6 +25,18 @@ a:hover {
   color: black;
   cursor: pointer;
 }
+.flex-maker{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex-maker-center{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 /*Header*/
 
 
