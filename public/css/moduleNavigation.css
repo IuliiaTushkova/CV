@@ -14,7 +14,9 @@
 }
 
 body{
-padding-top: 200px;	 
+	height: 100%;
+	padding-top: 200px;	
+
 
 	background-image: url('../images/theme/theme.jpg');
 	background-repeat: no-repeat;
@@ -52,12 +54,25 @@ a:hover {
 
 /*Main*/
 .wrapper{
-	width: 30%;
+	width: 100%;
 	padding: 20px 0;
 
 	text-align: center;
 	background-color: var(--background-color-opacity);
 	border-radius: 20px;
+	border: 5px solid var(--background-color);
+}
+/*Md vp*/
+@media(min-width: 768px){
+	.wrapper{
+		width: 70%;
+	}
+}
+/*Lg vp*/
+@media(min-width: 1267px){
+	.wrapper{
+		width: 30%;
+	}
 }
 .menu-item{
 	width: 100%;
