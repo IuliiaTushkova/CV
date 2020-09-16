@@ -11,7 +11,11 @@
 }
 
 body{
+	padding: 30px;
 	background-color: var(--background-color);
+	align-items: center;
+	font-family: var(--font);
+	color: var(--text-color);
 }
 
 .flex-maker{
@@ -26,6 +30,16 @@ body{
 	justify-content: center;
 }
 
+/*Links*/
+a{
+	color: var(--text-color);
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
 
 /*Header*/
 
@@ -40,22 +54,60 @@ h1{
 	width: 100%;
 	padding: 30px 0;
 
+}
+.hobby-wrapper{
+	width: 100%;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: flex-end;
-}
-.rub-hobbies p{
-		padding: 30px 0;
+	justify-content: center;
 
-		text-align: center;
-		font-size: 30px;
-		font-family: var(--font);
+}
+.hobby-wrapper p{
+	padding: 30px 0;
+
+	text-align: center;
+	font-size: 30px;
+	font-family: var(--font);
 	}
+.hobby-wrapper div{
+	width: 50%;
+}
 
 @media(min-width: 1538px){
 	.rub-hobbies p{
 		width: 30%;
 	}
+}
+/*Btn cv et menu*/
+.menu{
+	justify-content: space-between;
+	position:fixed;
+	bottom:0;
+}
+
+.goToMenu{
+	padding-right: 70px;
+
+	font-size: 30px;
+	font-weight: bolder;
+}
+.menu div{
+	padding-left: 70px;
+}
+
+.cv{
+	padding: 20px 20px;
+
+	color: var(--background-color);
+	font-weight: bold;
+	border-radius: 50%;
+	background-color: var(--second-color);
+}
+
+.cv:hover{
+	color: var(--background-color);
+	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
+	cursor: pointer;
 }

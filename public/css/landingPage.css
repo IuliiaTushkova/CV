@@ -32,8 +32,13 @@ body{
 /*------------ Presentation -------------*/
 .presentation-wrapper{
 	width: 80%;
-	margin-left: 150px;
 	padding-top: 250px;
+}
+
+@media(width-min:1209px){
+	.presentation-wrapper{
+		margin-left: 150px;
+	}
 }
 
 h3{
