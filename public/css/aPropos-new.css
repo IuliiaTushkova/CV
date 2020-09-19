@@ -24,14 +24,28 @@ body{
 	color: var(--text-color);
 }
 
+a{
+	color: var(--text-color);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
 /*Text*/
+
 .text-presentation{
 	padding: 10px 25px;
-	width: 50%;
+	width: 100%;
 }
+
+
 
 h1{
 	padding-bottom: 20px;
+	
 	text-transform: uppercase;
 }
 
@@ -39,16 +53,56 @@ p{
 	font-size: 1.5em;
 }
 
+/*Btns*/
+
+.cv{
+	padding: 10px 10px;
+
+	color: var(--background-color);
+	font-weight: bold;
+	border-radius: 50%;
+	background-color: var(--second-color);
+}
+
+.cv:hover{
+	color: var(--background-color);
+	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
+	cursor: pointer;
+}
+
+.text-menu-btns{
+	width: 90%;
+}
+/*Lg desktop*/
+@media(min-width: 1538px){
+	.text-menu-btns{
+		width: 50%;
+	}
+}
+
+.menu{
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.btns{
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	bottom: 0;
+}
 
 /*Photo*/
 .picture-me{
+	padding: 40px;
 	display: none;
 	width: 50%;
 }
 /*Shown for lg*/
 @media(min-width: 1538px){
 	.picture-me{
-		display: block;
+		display: flex;
 	}
 }
 
