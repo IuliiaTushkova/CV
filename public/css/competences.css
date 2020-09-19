@@ -10,6 +10,18 @@
 
 body{
 	background-color: var(--background-color);
+	font-family: var(--font);
+	color: var(--text-color);
+}
+
+a{
+	color: var(--text-color);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
 }
 
 
@@ -28,7 +40,7 @@ body{
 /*General container*/
 .wrapper-skills{
 	width: 100%;
-	padding: 30px 10px; 
+	padding: 50px 70px; 
 
 	background-color:var(--back);
 }
@@ -36,6 +48,7 @@ body{
 .skill-flex-wrapper{
 	width: 100%; 
 }
+
 /*Grid : 2 cols for sm*/
 .skill-grid-wrapper{
 	margin: 30px;
@@ -127,4 +140,40 @@ body{
 .transversales-grid p{
 	font-weight: bold;
 	font-size: 25px; 
+}
+
+/************* Btns ****************/
+
+.cv{
+	padding: 10px 10px;
+
+	color: var(--background-color);
+	font-weight: bold;
+	border-radius: 50%;
+	background-color: var(--second-color);
+}
+
+.cv:hover{
+	color: var(--background-color);
+	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
+	cursor: pointer;
+}
+
+.btns{
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+.menu{
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.btns{
+	width: 100%;
+
+	display: flex;
+	bottom: 0;
+	justify-content: space-around;
 }
