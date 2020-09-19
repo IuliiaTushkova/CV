@@ -1,0 +1,73 @@
+/*Generale*/
+
+:root {
+	
+	--background-color:#F6EAD4;
+	--background-color-second:#DBB591;
+	--text-color:#163084;
+	--second-color:#3E85D5;
+	
+	--font:'Prompt', sans-serif; 
+}
+
+.flex-maker-center{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+	background-color: var(--background-color);
+	font-family: var(--font);
+	color: var(--text-color);
+}
+
+/*Text*/
+.text-presentation{
+	padding: 10px 25px;
+	width: 50%;
+}
+
+h1{
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+p{
+	font-size: 1.5em;
+}
+
+
+/*Photo*/
+.picture-me{
+	display: none;
+	width: 50%;
+}
+/*Shown for lg*/
+@media(min-width: 1538px){
+	.picture-me{
+		display: block;
+	}
+}
+
+
+/*Rounded photo: sm and md*/
+/*Container*/
+.photo-rounded{
+	width: 100%;
+	padding-top: 60px; 
+	padding-bottom: 20px; 
+}
+
+.photo-rounded img{
+	border-radius: 50%;
+}
+
+/*hidden*/
+@media(min-width: 1538px){
+	.photo-rounded{
+		display: none;
+	}
+}

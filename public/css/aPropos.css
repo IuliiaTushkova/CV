@@ -12,12 +12,15 @@
 
 body{
 	background-color: var(--background-color);
+	font-family: var(--font);
+	color: var(--text-color);
 }
 
 /*Main*/
 
 /*general container*/
 .pres-wrapper{
+	width: 100%;
 	align-items: center;
 
 	background-color: var(--back);
@@ -27,7 +30,6 @@ body{
 	padding-top: 30px;
 	padding-bottom: 45px;
 
-	color: var(--red);
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -40,27 +42,26 @@ body{
 @media(min-width: 683px){
 	.text-presentation{
 		padding: 60px;
-		width: 60%;
+		width: 50%;
 	}
 }
 .text-presentation p{
 	font-size: 20px;
 }
 
-/*Elephant*/
-.picture-Nantes{
+/*Photo*/
+.picture-me{
 	display: none;
-	width: 40%;
-}
-.picture-Nantes img{
 	width: 100%;
+}
+.picture-me img{
+	width: 50%;
 	height: 100%;
 }
-/*Elephant non visible for sm and md*/
+/*Photo non visible for sm and md*/
 @media(min-width: 1538px){
-	.picture-Nantes{
-	width: 40%;
-	height: 100%;
+	.picture-me{
+	width: 50%;
 	display: block;
 	}
 }
