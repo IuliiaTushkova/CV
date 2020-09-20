@@ -12,6 +12,16 @@
 
 body{
 	background-color: var(--background-color);
+	color: var(--text-color);
+	font-family: var(--font);
+}
+
+a:hover{
+	text-decoration: none;
+	color: var(--text-color);
+}
+a{
+	color: var(--text-color);
 }
 
 .flex-maker{
@@ -77,7 +87,8 @@ body{
 h1{
 	width: 100%;
 	margin: 20px 0;
-	padding: 20px 0;
+	padding-top: 20px;
+	padding-bottom: 80px;
 
 	color:var(--text-color);
 	text-align: center;
@@ -86,16 +97,24 @@ h1{
 
 .education-block{
 	width: 100%;
+	background-image: url('../images/theme/themeCard.jpg');
+	
 
+}
+@media(min-width: 1538px){
+	.education-block{
+		padding: 20px 40px;
+		width: 400px;
+
+		border:2px solid var(--text-color);
+	}
 }
 
 .education-block-wrapper{
 
 	width: 100%;
-	margin-top: 20px; 
-	margin-bottom: 20px;
-	padding: 40px 10px;
 
+	padding-top: 20px;
 	background-color:var(--second-color);
 	text-align: center;
 	border:2px solid #ccc;
@@ -110,21 +129,34 @@ h1{
 	padding-left: 10px;
 	padding-right: 10px;
 }
+/*Lg text formation wrapper*/
+@media(min-width: 1545px){
+	.education-block-wrapper{
+		width: 100%;
+		height: 95%;
 
-@media(min-width: 1538px){
-	.education-block{
-		width: 30%;
+		margin-left: 40px;
+		margin-top: 40px;
+		box-shadow: 0 0 8px 8px var(--text-color);
 	}
 }
+/*cards hovered*/
+
+@media(min-width: 1545px){
+	.education-block-wrapper:hover{
+	transition: 1s;
+	margin-top: 70px;
+	box-shadow: 0 0 15px 15px var(--text-color);
+	}
+}
+
+
+/*Lg img container - general wrapper*/
+
 @media(min-width: 1538px){
 	.education-block-wrapper-extern{
 		width: 100%;
 		padding-left: 200px;
-	}
-}
-@media(min-width: 1538px){
-	.education-block-wrapper{
-		width: 60%;
 	}
 }
 
@@ -142,4 +174,40 @@ h1{
 	position: center;
 
 	color: var(--background-color);
+}
+
+/*Btns*/
+.cv{
+	padding: 10px 10px;
+
+	color: var(--background-color);
+	font-weight: bold;
+	border-radius: 50%;
+	background-color: var(--second-color);
+}
+
+.cv:hover{
+	color: var(--background-color);
+	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
+	cursor: pointer;
+}
+
+.btns{
+	width: 100%;
+	margin-top: 50px;
+}
+
+
+.menu{
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.btns{
+	width: 100%;
+
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	justify-content: space-around;
 }
