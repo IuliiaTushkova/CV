@@ -18,14 +18,25 @@ a{
 	color: var(--text-color);
 }
 
+#btn-span{
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: var(--background-color);
+	text-shadow: 2px 2px grey;
+}
+
+#btn-span:hover{
+	text-decoration: none !important;
+}
+
 a:hover {
   text-decoration: none;
   color: var(--text-color);
   cursor: pointer;
 }
 
-
 /*title*/
+
 .wrapper-skills h1{
 	width: 100%;
     margin: 20px 0;
@@ -37,7 +48,9 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
 }
+
 /*General container*/
+
 .wrapper-skills{
 	width: 100%;
 	padding: 50px 70px; 
@@ -92,8 +105,9 @@ a:hover {
 }
 
 .transversales-grid p{
-	font-size: 20px;
+	font-size: 20px; 
 }
+
 
 .comp-block{
 	width: 100px;
@@ -137,9 +151,15 @@ a:hover {
 	font-weight: bold;
 }
 
-.transversales-grid p{
-	font-weight: bold;
-	font-size: 25px; 
+
+/*Card header*/
+
+.card-header{
+	background-color: var(--second-color);
+}
+
+.card-body{
+	background-color: rgba(246, 234, 212, 0.4);
 }
 
 /************* Btns ****************/

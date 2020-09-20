@@ -35,9 +35,9 @@ body{
 	padding-top: 250px;
 }
 
-@media(width-min:1209px){
+@media(min-width:1209px){
 	.presentation-wrapper{
-		margin-left: 150px;
+		margin-left: 300px;
 	}
 }
 
