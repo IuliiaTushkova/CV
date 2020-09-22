@@ -89,3 +89,36 @@ h1{
 	bottom:0;
 	width:100%;
 }
+
+/*Menu*/
+
+/************* Menu ****************/
+
+.nav-wrapper{
+	width: 100%;
+	margin: 30px 0 0 5px;
+
+	position: fixed;
+	bottom:0;
+	justify-content: space-around;
+} 
+
+.nav-item{
+	margin: 10px;
+
+	letter-spacing: 1px;
+	font-family: var(--font);
+	font-size: 20px;
+}
+
+.navbar{
+	width: 100%;
+	padding: 0px;
+	background-color:var(--background-color)!important;
+}
+
+@media(min-width: 1501px){
+	.navbar-nav{
+		padding-left: 350px;
+	}
+}

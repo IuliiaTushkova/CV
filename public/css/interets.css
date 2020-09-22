@@ -80,34 +80,34 @@ h1{
 		width: 30%;
 	}
 }
-/*Btn cv et menu*/
-.menu{
-	justify-content: space-between;
-	position:fixed;
+
+/************* Menu ****************/
+
+.nav-wrapper{
+	width: 100%;
+	margin: 30px 0 0 5px;
+	position: fixed;
+	
 	bottom:0;
+	justify-content: space-around;
+} 
+
+.nav-item{
+	margin: 10px;
+
+	letter-spacing: 1px;
+	font-family: var(--font);
+	font-size: 20px;
 }
 
-.goToMenu{
-	padding-right: 70px;
-
-	font-size: 30px;
-	font-weight: bolder;
-}
-.menu div{
-	padding-left: 70px;
+.navbar{
+	width: 100%;
+	padding: 0px;
+	background-color:var(--background-color)!important;
 }
 
-.cv{
-	padding: 20px 20px;
-
-	color: var(--background-color);
-	font-weight: bold;
-	border-radius: 50%;
-	background-color: var(--second-color);
-}
-
-.cv:hover{
-	color: var(--background-color);
-	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
-	cursor: pointer;
+@media(min-width: 1501px){
+	.navbar-nav{
+		padding-left: 350px;
+	}
 }
