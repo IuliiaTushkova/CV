@@ -48,6 +48,7 @@ h4{
 /*Head*/
 
 .background-picture{
+	display: none;
 	height: 50px;
 	width: 100%;
 }
@@ -58,9 +59,8 @@ h4{
 	border: 3px solid var(--text-color);
 }
 
-
-
 .heading-wrapper div{
+	display: none;
 	width: 70%;
 
 	background-color: var(--background-color);
@@ -68,12 +68,35 @@ h4{
 
 }
 
-/*Main*/
+/*Md and Lg*/
+@media(min-width: 768px){
+	.heading-wrapper div{
+		display: block;
+	}
+}
 
-/*General wrapper*/
+/*Experience heading - sm*/
+.small-size{
+	margin: 20px 0;
+	padding: 20px 40px;
 
+	letter-spacing: 3px;
+	font-size: 40px;
+	color: var(--text-color);
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/*Md*/
+@media(min-width: 768px){
+	.small-size{
+		display: none;
+	}
+}
+
+/*Experience heading for md-lg*/
 .experience-heading{
-	
 	margin: 20px 0;
 	padding: 20px 40px;
 
@@ -83,6 +106,15 @@ h4{
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+@media(min-width: 768px){
+	.background-picture{
+		display: block;
+	}
+}
+/*Main*/
+
+/*General wrapper*/
 
 .timeline{
 	margin-top: 65px;
@@ -207,23 +239,34 @@ h4{
 	
 }
 
-/*Footer*/
-footer{
-	height: 70px;
-	justify-content: space-around;
-	align-items: center;
+/*Menu*/
+
+.nav-wrapper{
+	width: 100%;
+	margin: 5px 0 0 5px;
+
+	position:fixed;
+	bottom:0;
+	justify-content: center;
+} 
+
+.nav-item{
+	margin: 10px;
+
+	letter-spacing: 1px;
+	font-family: var(--font);
+	font-size: 20px;
 }
 
-footer p{
-	padding: 10px;
-
-	color: var(--background-color);
-	font-weight: bold;
-	border-radius: 50%;
-	background-color: var(--second-color);
+.navbar{
+	width: 100%;
+	padding: 0px;
+	background-color:var(--background-color)!important;
 }
 
-footer p:hover{
-	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
-	cursor: pointer;
+
+@media(min-width: 991px){
+	.navbar-nav{
+		padding-left: 420px;
+	}
 }

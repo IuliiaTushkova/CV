@@ -97,6 +97,7 @@ h1{
 
 .education-block{
 	width: 100%;
+	padding-top: 20px;
 	background-image: url('../images/theme/themeCard.jpg');
 	
 
@@ -123,12 +124,14 @@ h1{
 .red{
 	color: var(--red);
 }
+
 #uspu{
 	padding-top: 30px;
 	padding-bottom: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
 /*Lg text formation wrapper*/
 @media(min-width: 1545px){
 	.education-block-wrapper{
@@ -145,7 +148,7 @@ h1{
 @media(min-width: 1545px){
 	.education-block-wrapper:hover{
 	transition: 1s;
-	margin-top: 70px;
+	
 	box-shadow: 0 0 15px 15px var(--text-color);
 	}
 }
@@ -175,38 +178,33 @@ h1{
 	color: var(--background-color);
 }
 
-/*Btns*/
-.cv{
-	padding: 10px 10px;
-
-	color: var(--background-color);
-	font-weight: bold;
-	border-radius: 50%;
-	background-color: var(--second-color);
-}
-
-.cv:hover{
-	color: var(--background-color);
-	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
-	cursor: pointer;
-}
-
-.btns{
-	width: 100%;
-	margin-top: 50px;
-}
+/*Menu*/
 
 
-.menu{
+.nav-wrapper{
+	margin: 5px 0 0 5px;
+
+	position:fixed;
+	bottom:0;
+	justify-content: space-around;
+} 
+
+.nav-item{
+	margin: 10px;
+
 	letter-spacing: 1px;
+	font-family: var(--font);
 	font-size: 20px;
 }
 
-.btns{
+.navbar{
 	width: 100%;
+	padding: 0px;
+	background-color:var(--background-color)!important;
+}
 
-	display: flex;
-	position: fixed;
-	bottom: 0;
-	justify-content: space-around;
+@media(min-width: 991px){
+	.navbar-nav{
+		padding-left: 420px;
+	}
 }
