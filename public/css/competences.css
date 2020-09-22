@@ -29,8 +29,13 @@ a{
 	text-decoration: none !important;
 }
 
+#btn-span:hover{
+	text-decoration: none;
+}
+
 a:hover {
   text-decoration: none;
+
   color: var(--text-color);
   cursor: pointer;
 }
@@ -68,9 +73,17 @@ a:hover {
 	padding-bottom: 50px;
 
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	row-gap: 10px;
 	justify-items: center;
+}
+
+@media(min-width: 397px){
+	.skill-grid-wrapper{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		
+	}
 }
 
 /*Grid : 4 cols*/
@@ -162,38 +175,33 @@ a:hover {
 	background-color: rgba(246, 234, 212, 0.4);
 }
 
-/************* Btns ****************/
+/************* Menu ****************/
 
-.cv{
-	padding: 10px 10px;
-
-	color: var(--background-color);
-	font-weight: bold;
-	border-radius: 50%;
-	background-color: var(--second-color);
-}
-
-.cv:hover{
-	color: var(--background-color);
-	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
-	cursor: pointer;
-}
-
-.btns{
+.nav-wrapper{
 	width: 100%;
-	margin-top: 50px;
-}
+	margin: 30px 0 0 5px;
 
+	
+	bottom:0;
+	justify-content: space-around;
+} 
 
-.menu{
+.nav-item{
+	margin: 10px;
+
 	letter-spacing: 1px;
+	font-family: var(--font);
 	font-size: 20px;
 }
 
-.btns{
+.navbar{
 	width: 100%;
+	padding: 0px;
+	background-color:var(--background-color)!important;
+}
 
-	display: flex;
-	bottom: 0;
-	justify-content: space-around;
+@media(min-width: 1501px){
+	.navbar-nav{
+		padding-left: 350px;
+	}
 }
