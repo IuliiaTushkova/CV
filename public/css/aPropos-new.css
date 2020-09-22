@@ -52,22 +52,33 @@ p{
 	font-size: 1.5em;
 }
 
-/*Btns*/
 
-.cv{
-	padding: 10px 10px;
+/************* Menu ****************/
 
-	color: var(--background-color);
-	font-weight: bold;
-	border-radius: 50%;
-	background-color: var(--second-color);
+.nav-wrapper{
+	width: 100%;
+	margin: 30px 0 0 5px;
+
+	
+	bottom:0;
+	justify-content: space-around;
+} 
+
+.nav-item{
+	margin: 10px;
+
+	letter-spacing: 1px;
+	font-family: var(--font);
+	font-size: 20px;
 }
 
-.cv:hover{
-	color: var(--background-color);
-	box-shadow: 3px 3px rgba(26, 30, 77, 0.175); 
-	cursor: pointer;
+.navbar{
+	width: 100%;
+	padding: 0px;
+	background-color:var(--background-color)!important;
 }
+
+/*****/
 
 .text-menu-btns{
 	width: 90%;
