@@ -1,0 +1,151 @@
+/*
+Summary :
+
+- General (common to all pages)
+	- Flex (classes making containers flex)
+	- Dimension (classes changing layout)
+	- Non-dimension (classes without changin layout)
+	- Tags (changes put on tags)
+
+- A propos
+
+*/
+
+
+
+
+/*Generale*/
+
+:root {
+	
+	--background-color:#F6EAD4;
+	--background-color-second:#DBB591;
+	--text-blue-color:#1A1E4D;
+	--btn-blue-color:#3E85D5;
+	
+	--font-text:'Cormorant Garamond', serif;
+	--font-heading : 'Architects Daughter', cursive;
+}
+
+/*Flex*/
+.flex-center{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*Dimension*/
+.width-100{
+	width: 100%;
+}
+
+.width-50{
+	width: 50%;
+}
+
+.a-propos-container{
+	width: 60%;
+	padding-top: 2rem;
+}
+
+.padding-top{
+	padding-top: 2rem;
+}
+
+.padding-top-btm{
+	padding: 2.5rem 0;
+}
+
+
+
+/*Non-dimension*/
+
+.heading-text{
+	font-size: 3rem;
+	font-family: var(--font-heading);
+	text-transform: uppercase;
+}
+
+.text-align{
+	text-align: center;
+}
+
+.principal-text{
+	font-size: 1.5rem;
+	font-family: var(--font-text);
+}
+
+
+/*Tags*/
+
+a{
+	color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+section{
+	width: 100%;
+}
+
+/*Common elements*/
+
+.btn-activity{
+	padding: 10px;
+	font-family: var(--font-heading);
+	font-size: 1.5rem;
+	color: #FFFF;
+	background-color: var(--btn-blue-color);
+}
+
+.btn-activity-container{
+	width: 50%;
+}
+.btn-activity:hover{
+	color: #FFF;
+}
+
+.nav-item{
+	margin: 0 10px;
+	font-family: var(--font-text);
+	font-size: 1.5rem;
+	color: var(--text-blue-color);
+}
+
+/* A propos */
+
+#navbar{
+	background-color: #FFF !important;
+}
+
+/*Btn containers for md*/
+@media(max-width: 750px){
+	.btn-activity-container{
+		width: 100%;
+		margin-top: 40px;
+	}
+}
+
+
+.question-wrapper{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	padding: 2.5rem 1.5rem;
+	background-image: url('./images/background-1');
+
+}
+
+.question-wrapper article {
+	margin-top: 2rem;
+}
+
+.question{
+	font-family: var(--font-heading);
+	font-size: 1.5rem;
+
+}
