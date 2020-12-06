@@ -137,3 +137,40 @@ p{
 		display: none;
 	}
 }
+
+
+
+.width-100{
+	width: 100%;
+}
+
+.width-50{
+	width: 50%;
+}
+
+.a-propos-container{
+	width: 60%;
+	padding-top: 2rem;
+}
+
+.padding-top{
+	padding-top: 2rem;
+}
+
+.padding-top-btm{
+	padding: 2.5rem 0;
+}
+
+.position-center{
+	position: center;
+}
+
+.icon{
+	font-size: 2rem;
+	padding-bottom: 10px;
+}
+
+.text-aligh{
+	text-align: center;
+	padding: 10px 20px;
+}
