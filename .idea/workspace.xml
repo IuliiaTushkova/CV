@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="182b0d94-b782-4a25-86da-53b85402c416" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/illustrations/available.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/illustrations/lookingFor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/stylesLanding.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stylesLanding.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/CV_Iuliia_Tushkova.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/CV_Iuliia_Tushkova.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/illustrations/dispo-100.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/illustrations/recherche-100.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/theme/desert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/displayEffect.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/displayEffect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/page/Apropos.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/Apropos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page/Competences-new.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/Competences-new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page/Contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/Contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/page/ExperiencesPro.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/ExperiencesPro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page/Formations.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/Formations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page/Interets.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/Interets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page/LP.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/LP.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598992573129</updated>
       <workItem from="1598992574453" duration="389000" />
-      <workItem from="1613401382071" duration="14741000" />
+      <workItem from="1613401382071" duration="15818000" />
     </task>
     <servers />
   </component>
