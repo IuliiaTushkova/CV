@@ -2,85 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="182b0d94-b782-4a25-86da-53b85402c416" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/downloadBtn.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/downloadBtn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stype.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/stype.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CV_Iuliia_Tushkova.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/CV_Iuliia_Tushkova.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Nantes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Nantes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/aPropos.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/aPropos.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/appearing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/appearing.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/briefcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/briefcase.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/btn-menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/btn-menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/education.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/education.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/navTop.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/navTop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/navTop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/navTop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pencil.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pencil.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/Netbeans.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/Netbeans.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/SQLServer.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/SQLServer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/android.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/android.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/btsp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/btsp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/canva.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/canva.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/css3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/css3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/eclipse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/eclipse.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/figma.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/figma.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/git.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/git.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/googleDocs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/googleDocs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/html.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/html.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/icons8-microsoft-sql-server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/icons8-microsoft-sql-server.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/inteliji.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/inteliji.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/java.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/java.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/jquery.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/jquery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/js.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/js.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/php.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/php.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/plSQLt.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/plSQLt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/rubyOnRails.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/rubyOnRails.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/symfony.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/symfony.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/tail.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/tail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/techno/fold1/wordpress.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/techno/fold1/wordpress.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page/favicon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustrations/Récapitulatif - OVHcloud.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustrations/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustrations/gallimard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/illustrations/reading-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/LP.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/LP.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ru">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/techno/fold1/inteliji.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -115,6 +48,7 @@
     <option name="width" value="1440" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectId" id="1oWTWe0llVhPZDr24wi0vrZMdh3" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -160,30 +94,27 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/page" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lucie\Desktop\ENI_cours\CV\public\page" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -196,6 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598992573129</updated>
       <workItem from="1598992574453" duration="389000" />
+      <workItem from="1613401382071" duration="1227000" />
     </task>
     <servers />
   </component>
@@ -228,7 +160,18 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Gemfile">
